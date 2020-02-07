@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+typescript-platzi/dist
+typescript-platzi/tmp
+typescript-platzi/out-tsc
+# Only exists if Bazel was run
+typescript-platzi/bazel-out
+
+# dependencies
+typescript-platzi/node_modules
+
+# profiling files
+typescript-platzi/chrome-profiler-events*.json
+typescript-platzi/speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+typescript-platzi/.sass-cache
+typescript-platzi/connect.lock
+typescript-platzi/coverage
+typescript-platzi/libpeerconnection.log
+typescript-platzi/npm-debug.log
+typescript-platzi/yarn-error.log
+typescript-platzi/testem.log
+typescript-platzi/typings
+
+# System Files
+.DS_Store
+Thumbs.db
