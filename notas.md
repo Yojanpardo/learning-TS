@@ -31,3 +31,18 @@ sudo apt install npm
 npm install -g @angular/cli
 ng new typescript-platzi
 ~~~
+
+## Firebase
+Es una base de datos no relacional provista por Google (SaaS) que nos ayuda en la creación de un sitio web que tenga persistencia de datos y no es necesario tener un backend para ello, Podemos tener bases de datos RealTime. podemos usarlo independientemente del lenguaje de programacion.  
+Para poder utilizarlo debemos debemos instalar las siguientes dependencias:  
+~~~sh
+npm i -s firebase angularfire2
+# O
+npm i firebase angularfire2
+# Cualquiera sirve
+~~~
+
+## Diferencias entre React, Angular y Vue
+
+### Angular
+Ideal para proyectos grandes, robustos y complejos. Al usar TypeScript da un gran control sobre el proyecto y le da robustz
