@@ -45,4 +45,25 @@ npm i firebase angularfire2
 ## Diferencias entre React, Angular y Vue
 
 ### Angular
-Ideal para proyectos grandes, robustos y complejos. Al usar TypeScript da un gran control sobre el proyecto y le da robustz
+Ideal para proyectos grandes, robustos y complejos. Al usar TypeScript da un gran control sobre el proyecto y le da robustez y anglular Cli es muy completo
+
+Contras:  
+* al ser tan robusto su curva de aprendizaje es muy elevada
+* Se genera código repetitivo por lo tanto los archivos son muy grandes
+
+### React
+pros:  
+* Tiene una gracn comunidad
+* Es muy flexible
+* Cuenta con el respaldo de Facebook  
+Contras:  
+* Existen miles de posibles soluciones para el mismo problema
+
+### Vue
+* Basado en componentes
+* es muy nuevo y su comunidad es pequeña
+* curva de aprendizaje sencilla
+
+## Presentación de la aplicación
+Es una aplicación para el manejo de jugadores de un equipo de futbol en los cuales añadiremos jugadores a determinadas posiciones. se pueden crear, eliminar, actualizar y listas los jugadores.
+
