@@ -67,3 +67,11 @@ Contras:
 ## Presentación de la aplicación
 Es una aplicación para el manejo de jugadores de un equipo de futbol en los cuales añadiremos jugadores a determinadas posiciones. se pueden crear, eliminar, actualizar y listas los jugadores.
 
+
+## Servicios 
+La idea es crear un archivo para cada servicio dentro de la carpeta de servicios. Un servicio es aquello que nos da una funcionalidad al proyecto, en este caso crearemos un servicio para conectarnos con firebase.  
+~~~sh
+ng generate service [nombre del servicio]
+~~~  
+
+los servicios hay que ponerlos en el arreglo de proveedores de app.module.ts, todos componentes del módulo pueden hacer uso del servicio.
